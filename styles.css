@@ -28,7 +28,7 @@ ul li a:hover {
 }
 
 #scroll {
-    display: none; /* Hidden by default */
+    display: none;
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
     right: 40%;
