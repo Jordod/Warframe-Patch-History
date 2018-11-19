@@ -1,0 +1,30 @@
+img {
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wfData {
+    display: none;
+}
+
+ul {
+    background-color: darkgrey;
+    margin-left: 0;
+}
+
+ul li a {
+    color : white;
+}
+
+ul li a:hover {
+    color : black;
+}
+
+#scroll {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 40%;
+    z-index: 99; /* Make sure it does not overlap */
+}

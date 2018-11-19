@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="topFunction()" class="btn btn-primary" id="scroll" title="Go to top">Top</button>
+
+    <div class="col-md-2" style="padding-left: 0; padding-right: 0;">
+        <ul id="list" class="nav nav-pills nav-stacked">
+            <h4 style="padding-left: 8px; color:white;"><strong>Warframe Patch History</strong></h4>
+            <input placeholder="Filter..." class="form-control" type="text" id="search" onkeyup="findFrames()">
+        </ul>  
+    </div>
+    <div id="data" class="col-md-10"></div>
+
+</body>
+</html>
