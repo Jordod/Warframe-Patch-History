@@ -1,24 +1,30 @@
-img {
-    max-height: 400px;
-    margin-left: auto;
-    margin-right: auto;
+html {
+    background-color: rgb(32,32,32);
+}
+
+#data {
+    color: rgb(239,239,239);
+}
+
+ul {
+    background-color:#232b2b;
+    margin-left: 0;
+}
+
+ul li a {
+    color : lightgray;
+}
+
+ul li a:hover {
+    color : black;
 }
 
 .wfData {
     display: none;
 }
 
-ul {
-    background-color: darkgrey;
-    margin-left: 0;
-}
-
-ul li a {
-    color : white;
-}
-
-ul li a:hover {
-    color : black;
+.wfData div a {
+    color: rgb(51, 122, 200);
 }
 
 #scroll {
